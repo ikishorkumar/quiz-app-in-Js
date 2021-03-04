@@ -1,0 +1,63 @@
+body {
+    background: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+#quizdiv {
+    background: rgb(74, 218, 105);
+    max-width: 700px;
+    color: rgb(255, 255, 255);
+    font-family:cursive;
+    font-weight: 800;
+    padding: 15px;
+    font-size: 22px;
+    margin: 55px auto;
+    border:  .4rem inset rgb(77, 184, 109);
+}
+#quizdiv button {
+    
+    background: #fff;
+    color: rgb(61, 185, 88);
+    font-family:cursive;
+    font-weight: 600;
+    width: 200px;
+    padding: 2px 15px;
+    font-size: 24px;
+    margin: 5px;
+    outline: none;
+    border-radius: 15px;
+    border:  .4rem outset rgb(77, 184, 109);
+}
+
+#quizdiv button:hover {
+    background: rgb(74, 218, 105);
+    color: rgb(255, 255, 255);
+   /* border:  .4rem outset rgb(77, 184, 109); */
+}
+
+#quizdiv h2{ 
+    background: #fff !important;
+    color: rgb(61, 185, 88) !important;
+    margin: 2px 0;
+    border-radius: 8px;
+    font-size: 24px;
+    border:  .4rem outset rgb(77, 184, 109) !important;
+}
+#scores {
+    background: #fff;
+    color: rgb(74, 218, 105);
+    max-width: 700px;
+    /* color: rgb(255, 255, 255); */
+    font-family:cursive;
+    font-weight: 800;
+    /* padding: 5px; */
+    font-size: 24px;
+    display: flex;
+    margin: 5px auto;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border:  .4rem outset rgb(93, 182, 112);
+}
